@@ -1,0 +1,8 @@
+name = "serenityicons"
+version = "1.0.0"
+description = "Serenity icons for BoredOS"
+author = "SerenityOS developers"
+license = "BSD-2-Clause"
+
+[install]
+assets = "/Library/images/icons/serenityicons"
