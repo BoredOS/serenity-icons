@@ -5,4 +5,4 @@ author = "SerenityOS developers"
 license = "BSD-2-Clause"
 
 [install]
-assets = "/Library/images/icons/serenityicons"
+assets = "/Library/Icons/serenityicons"

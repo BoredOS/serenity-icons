@@ -7,10 +7,10 @@ clean:
 	rm -rf build
 
 install:
-	mkdir -p $(DESTDIR)/Library/images/icons/serenityicons/16x16
-	mkdir -p $(DESTDIR)/Library/images/icons/serenityicons/32x32
-	cp 16x16/*.png $(DESTDIR)/Library/images/icons/serenityicons/16x16/
-	cp 32x32/*.png $(DESTDIR)/Library/images/icons/serenityicons/32x32/
+	mkdir -p $(DESTDIR)/Library/Icons/serenityicons/16x16
+	mkdir -p $(DESTDIR)/Library/Icons/serenityicons/32x32
+	cp 16x16/*.png $(DESTDIR)/Library/Icons/serenityicons/16x16/
+	cp 32x32/*.png $(DESTDIR)/Library/Icons/serenityicons/32x32/
 
 bup:
 	rm -rf build/package
